@@ -11,9 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        printFunc()
         // Do any additional setup after loading the view.
     }
 
-
+    func printFunc(){
+        print("Welcom to Storyboard")
+    }
 }
 
